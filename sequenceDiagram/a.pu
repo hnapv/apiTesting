@@ -1,0 +1,15 @@
+@startuml
+scale 2
+title Thanh toán tiền xăng trên PVOIL4U bằng phiếu xăng
+actor Khách hàng
+Khách hàng -> App PVOil4u: Quét QR thanh toán
+App PVOil4u --> Khách hàng: response result
+Khách hàng -> App PVOil4u: Xác nhận thanh toán
+App PVOil4u -> Backend QL Coupons: Call API Thanh toán xăng bằng phiếu xăng
+Backend QL Coupons->Backend QL Coupons: validate
+Backend QL Coupons-> Backend Transfer NHS: Call API Hạch toán tiền từ TKTG đến TK CHXD
+Backend Transfer NHS -> APIC/T24: Call API itft
+Backend Transfer NHS <-- APIC/T24: response result
+Backend Transfer NHS--> Backend QL Coupons
+
+@enduml

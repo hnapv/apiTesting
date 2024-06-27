@@ -1,7 +1,9 @@
 const axios = require("axios")
+const env= require("dotenv").config()
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 axios.interceptors.request.use(function (config) {
     // Do something before request is sent
-    console.log("aaa")
+    // console.log("aaa")
     return config;
   }, function (error) {
     // Do something with request error
