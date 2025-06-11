@@ -1,6 +1,7 @@
 const axios = require("axios")
 const env= require("dotenv").config()
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+process.env.NODE_OPTIONS="--openssl-legacy-provider"
 axios.interceptors.request.use(function (config) {
     // Do something before request is sent
     // console.log("aaa")

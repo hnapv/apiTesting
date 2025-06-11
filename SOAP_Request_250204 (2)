@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:nhs="http://temenos.com/NHS2070" xmlns:ebt="http://temenos.com/EBTKTCCHUYENDUNGACAPIPVBCREATEACC100">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <nhs:KhaiBaoDanhsachTKTHTKCC>
+         <WebRequestCommon>
+            <!--Optional:-->
+            <company>VN0010001</company>
+            <password>Pvcb@12345</password>
+            <userName>SOAP.USER.UAT</userName>
+         </WebRequestCommon>
+         <!--Optional:-->
+         <OfsFunction>
+          
+         </OfsFunction>
+         <EBTKTCCHUYENDUNGACAPIPVBCREATEACC100Type id="264000039409">
+            <!--Optional:-->
+            <ebt:gACCTROOT g="264000039409">
+               <!--Zero or more repetitions:-->
+               <ebt:mACCTROOT m="264000039409">
+                  <!--Optional:-->
+                  <ebt:ACCTROOT>264000039409</ebt:ACCTROOT>
+                  <!--Optional:-->
+                  <ebt:BENCUS/>
+                  <!--Optional:-->
+                  <ebt:BENBANK/>
+                  <!--Optional:-->
+                  <ebt:CITADCODE/>
+                  <!--Optional:-->
+                  <ebt:BTYPE>01</ebt:BTYPE>
+                  <!--Optional:-->
+                  <ebt:BENBANK247/>
+                  <!--Optional:-->
+                  <ebt:REMARK>Test Data SOAP TKTC UAT</ebt:REMARK>
+               </ebt:mACCTROOT>
+            </ebt:gACCTROOT>
+         </EBTKTCCHUYENDUNGACAPIPVBCREATEACC100Type>
+      </nhs:KhaiBaoDanhsachTKTHTKCC>
+   </soapenv:Body>
+</soapenv:Envelope>

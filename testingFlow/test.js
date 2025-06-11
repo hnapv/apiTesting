@@ -1,6 +1,7 @@
-const dotenv = require('dotenv').config({path:"../.env"})
+const env = require('dotenv').config({path:"../.env"})
+console.log(process.env.USERNAME_MBS)
 const fs = require('node:fs');
-const { loginMBS, copi24LeaderPortfolio } = require('../services/stockServices');
+const { loginMBS, copi24LeaderPortfolio } = require('../services/personalServices/stockServices');
 
 const testFlow = async () => {
   try {

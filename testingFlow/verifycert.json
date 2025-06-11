@@ -1,0 +1,25 @@
+{
+  "status": 200,
+  "request_id": "1dd07e8e-9b31-46d3-b99d-2ad5638de022",
+  "data": {
+    "responseId": "qts-a4836bfc-f9b4-4372-983d-53500da91774",
+    "exitcode": 0,
+    "result": true,
+    "message": "valid idcard",
+    "time": 1741143817
+  },
+  "timestamp": 1741143817944,
+  "region": "ekyc-sandbox-zone1",
+  "signature": "KEMXPbeaZObPmJjdt4eU1m9GcVj3JoeQB0dudGD+SwmyuuZlT/U3kW9fGVpTINeLQQ66z2Q3Cz3u1GMm7WVpMk6AnY/xZomMrXaIHAka1MiQc7/MIM6XzPUuUKdR4f8TSmIZIDnzKPjT/AxglTS58bRfSzkom26gvLFaMqbLcVOzuqh6nkcjoZIHlTtw+F9LcCpeTFDDA8dPjUj+XDV26U9H1ENmT8vBFVg9UMQwfw21v2cRpzCODAkrvHrmBtHkYZotEsLF9UtV8FjM9mJPfeAkJZxSuRHvZT/hpY3wJASWZ57vBSqMaDIJfwkyAA5u9yQn/IqV+MYtsIZzh6Km3Q=="
+}
+// thất bại
+{
+    "status": 400,
+    "message": "Request not found",
+    "data": {},
+    "code": "011",
+    "timestamp": 1741143788266,
+    "region": "ekyc-sandbox-zone1",
+    "signature": "HOUdai13tR8uDh4WP+Q79eqNoCOUFbUjdGZ7i7tSnvauATIH+/tO1rSN+8rlnA8/ULH0M2VqK1T3DTGzqj28GSqH3Em2Kg6etczzTW6h0Y263YjTyzlI05ifugxZkQ/qurG0sejGaqeYrdGOpWXqvC22yHadeBvJlG4dSpNoC7B6KhAOST+/1lwo58KDzq5PZ9NT/VaFt7zYl2PlhxlVhxVrQnNiFH32y0IYRTZHgf0TRjlbvO5IzuVrWDSJ4tXVRFyiV3n2PFyXATnoNszSSxp8U0ukOkNGfXc3eP7XzryfBJT59IppHLpjUhkYUrua9mP13b2PFC6OykwXAVEmoA=="
+  }
+  
